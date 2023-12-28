@@ -1,8 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import VideoCard from "../components/VideoCard";
-import FakeYoutube from "../api/fakeYoutube";
-import Youtube from "../api/youtube";
 import { useYoutubeApi } from "../context/YoutubeApiContext";
 
 export default function Videos() {
